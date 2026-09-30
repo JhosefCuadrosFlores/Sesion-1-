@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pagatu-cliente-ms
+  config:
+    import: "configserver:http://localhost:18888"
+  profiles:
+    active: dev

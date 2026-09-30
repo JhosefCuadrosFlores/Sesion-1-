@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pagatu-orden-ms
+  config:
+    import: "configserver:http://localhost:18888"
+  profiles:
+    active: dev
